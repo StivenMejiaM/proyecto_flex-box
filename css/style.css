@@ -1,0 +1,577 @@
+body{
+    margin: 0px;
+}
+
+nav{
+    background: #24282b;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li a{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 13px;
+}
+
+.azul{
+    color: #1292d4;
+}
+
+span{
+    color: #1292d4;
+}
+.titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    margin-left: -70px;
+}
+
+.borde{
+    background-color: #1292d4;
+    height: 10px;
+}
+
+.fondo{
+    background-image: url(..//imagenes/cabecera1.jpg);
+    height: 90vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+.medio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titular{
+    font-size: 70px;
+    margin-top: 125px;
+}
+
+.titulos{
+    font-size: 22px;
+    margin-top: -20px;
+    width: 1110px;
+    margin-left: 110px;
+}
+
+.segund_menu{
+    background-color: #24282b;
+    height: 100px;
+    margin-top: -113px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#correo{
+    height: 35px;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 290px
+}
+
+.bottom{
+    height: 50px;
+    width: 90px;
+    margin-top: 25px;
+    margin-left: -135px;
+    background-color: #e8491d;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+}
+
+.titulo2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 21px;
+    margin-top: 35px;
+    margin-left: 90px;
+    float: none;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja3{
+    margin-right: 130px;
+}
+
+.img1{
+    height: 180px;
+    width: 170px;
+    margin-top: 50px;
+    margin-left: 210px;
+}
+
+.img2{
+    height: 180px;
+    width: 170px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.img3{
+    height: 180px;
+    width: 170px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.texto1{
+    text-align: center;
+    padding: 10px 20px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+.texto2{
+    text-align: center;
+    padding: 10px 20px;
+    width: 250px;
+    margin-top: -20px;
+}
+
+.texto3{
+    text-align: center;
+    padding: 10px 20px;
+    width: 250px;
+    margin-top: -20px;
+}
+
+.tex1{
+    margin-left: 250px;
+}
+
+.tex2{
+    margin-left: 105px;
+}
+
+.tex3{
+    margin-left: 50px;
+}
+
+footer{
+    background-color: #1292d4;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+}
+
+.nombre{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.segundo{
+    background-color: #24282b;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parrafo1{
+    width: 650px;
+}
+
+.parrafo2{
+    width: 650px;
+    background-color: #35424a;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.parrafo4{
+    width: 300px;
+    background-color: #35424a;
+    color: #fff;
+    padding: 5px 5px;
+    float: right;
+    margin-top: -460px;
+    margin-right: 190px;
+}
+
+.parrafo5{
+    width: 300px;
+    background-color: #35424a;
+    color: #fff;
+    padding: 5px 5px;
+    float: right;
+    margin-top: -590px;
+    margin-right: 190px;
+}
+
+.img4{
+    width: 660px;
+    height: 162px;
+}
+
+.padre{
+    margin-left: 120px;
+}
+
+.precio{
+    background-color: #e6e6e6;
+    width: 600px;
+    padding: 5px 10px;
+}
+
+.contenedor{
+    margin-left: 150px;
+}
+
+.formulario{
+    width: 670px;
+    height: 500px;
+    margin-left: 110px;
+}
+.encuesta{
+    display: block;
+}
+
+textarea{
+    max-height: 100px;
+    max-width: 650px;
+}
+
+input{
+    width: 650px;
+    height: 30px;
+}
+
+.naranja{
+    background-color: #e8491d;
+    color: #fff;
+}
+
+.parrafo6{
+    width: 300px;
+    background-color: #35424a;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.mapa{
+    width: 310px;
+    height: 300px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 910px;
+    margin-top: -490px;
+}
+
+/*responsive table*/
+
+@media screen and (max-width:800px){
+    /*ventana del inicio*/
+    nav{
+        font-size: 16px;
+    }
+
+    .titulo{
+        margin-left: 10px;
+    }
+
+    .titular{
+        font-size: 50px;
+    }
+    
+    .titulos{
+        font-size: 20px;
+        width: 650px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .segund_menu{
+        margin-top: -344px;
+    }
+
+    .titulo2{
+        font-size: 18px;
+        margin-top: 27px;
+        margin-left: 4px;
+        width: 131px;
+    }
+
+    .input{
+        width: 296px;
+        margin-top: 29px;
+        margin-left: -21px;
+    }
+
+    .img1{
+        height: 151px;
+        width: 140px;
+        margin-left: 49px;
+    }
+
+    .img2{
+        height: 151px;
+        width: 140px;
+    }
+
+    .img3{
+        height: 151px;
+        width: 140px;
+    }
+
+    .tex1{
+        margin-left: 77px;
+    }
+
+    .tex2{
+        margin-left: 90px;
+    }
+
+    .tex3{
+        margin-left: 36px;
+    }
+
+    .texto1{
+        width: 205px;
+        margin-left: -3px;
+        margin-top: -20px;
+        font-size: 13px;
+    }
+
+    .texto2{
+        width: 205px;
+        margin-left: -3px;
+        margin-top: -20px;
+        font-size: 13px;
+    }
+
+    .texto3{
+        width: 205px;
+        margin-left: -3px;
+        margin-top: -20px;
+        font-size: 13px;
+    }
+
+    .caja3{
+        margin-left: 64px;
+    }
+
+    /*ventan de nosotros*/
+    .padre{
+        margin-left: 35px;
+    }
+
+    .parrafo1{
+        width: 350px;
+    }
+
+    .parrafo2{
+        width: 350px;
+    }
+
+    .parrafo4{
+        margin-right: 44px;
+        margin-top: -579px;
+        width: 290px;
+    }
+
+    .img4{
+        width: 360px;
+    }
+
+    /*ventana de servicios*/
+    .contenedor{
+        margin-left: 35px;
+    }
+
+    .precio{
+        width: 400px;
+    }
+
+    .parrafo5{
+        width: 249px;
+        margin-right: 36px;
+        margin-top: -645px;
+    }
+
+    /*ventana de contacto*/
+    .formulario{
+        margin-left: 35px;
+    }
+
+    #name{
+        width: 358px;
+    }
+
+    #email{
+        width: 358px;
+    }
+
+    #celular{
+        width: 358px;
+    }
+
+    textarea{
+        max-width: 358px;
+    }
+
+    .naranja{
+        width: 366px;
+    }
+
+    .content{
+        margin-left: 450px;
+    }  
+}
+
+@media screen and (max-width:574px){
+    /*ventana de inicio*/
+    nav{
+        font-size: 15px;
+    }
+
+    .titulo{
+        margin-left: 10px;
+    }
+
+    .titular{
+        font-size: 40px;
+    }
+    
+    .titulos{
+        font-size: 19px;
+        width: 500px;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    .titulo2{
+        font-size: 17px;
+        margin-top: 27px;
+        margin-left: -63px;
+        width: 131px;
+    }
+
+    #correo{
+        width: 236px;
+        margin-left: -111px;
+    }
+
+    .caja2{
+        margin-left: 65px;
+    }
+
+    .caja3{
+        margin-top: 334px;
+        margin-left: -347px;
+    }
+
+    /*ventana de nosotros*/
+    .padre{
+        margin-left: 15px;
+    }
+
+    .parrafo1{
+        width: 250px;
+    }
+
+    .parrafo2{
+        width: 250px;
+    }
+
+    .parrafo4{
+        margin-right: 44px;
+        margin-top: -738px;
+        width: 200px;
+    }
+
+    .img4{
+        width: 540px;
+    }
+
+    /*ventana de servicios*/
+    .contenedor{
+        margin-left: 15px;
+    }
+
+    .precio{
+        width: 280px;
+    }
+
+    .parrafo5{
+        width: 200px;
+        margin-right: 26px;
+        margin-top: -705px;
+    }
+
+    /*ventana de contacto*/
+    .formulario{
+        margin-left: 15px;
+    }
+
+    #name{
+        width: 240px;
+    }
+
+    #email{
+        width: 240px;
+    }
+
+    #celular{
+        width: 240px;
+    }
+
+    textarea{
+        max-width: 240px;
+    }
+
+    .naranja{
+        width: 246px;
+    }
+
+    .content{
+        margin-left: 300px;
+    } 
+    
+    .parrafo6{
+        width: 230px;
+    }
+
+    .mapa{
+        width: 240px;
+        height: 270px;
+    }
+
+
+
+
+}
+
+
+
+
+
